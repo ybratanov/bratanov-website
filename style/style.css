@@ -1,0 +1,202 @@
+body {
+  background: linear-gradient(45deg, #1e4ea0, #56a2d8);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Font styling */
+p,
+a {
+  color:whitesmoke;;
+}
+
+/* hire is navibar whit border */
+header {
+  background-color: #0c1f58;
+  color: #fff;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border-bottom: 2px solid black; */
+}
+
+/* try to using logo */
+.logo img {
+  width: 50px;
+  height: auto;
+  margin-right: 20px;
+}
+
+/* adding stayling for first menu */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  margin: 0;
+  
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 2px solid rgb(160, 88, 33);
+  border-radius: 5px;
+  background-color: #3c89db;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+/* speciale effec when mau is over element is naicly */
+nav ul li a:hover {
+  background-color: #f3e0c8;
+  color: red;
+}
+
+/* somthing new from w3school  */
+.search {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.search input[type="text"] {
+  padding: 5px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.search button {
+  background-color: white;
+  color: gray;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+h1 {
+  font-family: "Lucida Sans Unicode";
+  font-weight: bolder;
+  color: #993333;
+  font-size: 40px;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Lucida Sans Unicode";
+  font-weight: bolder;
+  color: whitesmoke;;
+  font-size: 40px;
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: whitesmoke;;
+  font-size: 18px;
+  text-align: center;
+  
+}
+
+main {
+  padding: 20px;
+}
+/* Photo for home page */
+.header-section {
+  text-align: center; /* За да центрираме съдържанието на секцията хоризонтално */
+  position: relative;
+}
+
+
+/* Text formating */
+.articles {
+  margin: 10px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: white;
+  /* border: 1px goldenrod solid; */
+  border-radius: 5px;
+}
+
+.articles article {
+  flex: 0 1 calc(33.33% - 20px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px goldenrod solid;
+  border-radius: 5px;
+}
+
+.flex-articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+  color: azure;
+  border: 1px goldenrod solid;
+  border-radius: 5px;
+}
+
+.flex-articles article {
+  flex: 0 1 calc(33.33% - 20px);
+  padding: 10px;
+  margin-bottom: 20px;
+  /* border: 1px solid rgb(49, 39, 39);
+    border-radius: 5px; */
+}
+
+.articles h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.footer {
+  text-align: center;
+  background-color: #0c1f58;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* animacion over transformar img  */
+.animated-text {
+  animation-name: moveText; /* Име на анимацията */
+  animation-duration: 5s; /* Продължителност на анимацията */
+  animation-timing-function: linear; /* Линеен времеви график */
+  animation-iteration-count: infinite; /* Безкрайно повторение */
+  animation-direction: alternate; /* Промяна на посоката след всяка итерация */
+}
+
+@keyframes moveText {
+  0% {
+    transform: translateX(0); /* Начална позиция на текста */
+  }
+  50% {
+    transform: translateX(100px); /* Средна позиция на текста */
+  }
+  100% {
+    transform: translateX(0); /* Крайна позиция на текста */
+  }
+}
+
+/* image from home page */
+
+.image-container {
+  opacity: 0.9;
+ 
+}

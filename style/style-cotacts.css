@@ -1,0 +1,41 @@
+main {
+  text-align: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.articles {
+  display: flex;
+  justify-content: space-around;
+}
+
+.article {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: #302424;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.article h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+  color: #6a3232;
+}
+
+i {
+  margin-right: 5px;
+}
